@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_background">#EBEBEB</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- 自定义Loding_Dialog_Start -->
+    <color name="bocop_dialog_bg">#77000000</color>
+
+    <color name="ColorButtonRelease">#FCC689</color>
+    <color name="ColorButtonPressed">#FF7438</color>
+    <color name="ColorButtonDisable">#EEE</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
+
+
+    <color name="text_gray">#aaaaaa</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="bg_transparent">#00000000</color>
+    <color name="bg_gray">#9999</color>
+</resources>

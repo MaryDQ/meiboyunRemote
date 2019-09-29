@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.microsys.imb.remote">
+
+    <supports-screens
+            android:anyDensity="true"
+            android:largeScreens="true"
+            android:normalScreens="true"
+            android:resizeable="true"
+            android:smallScreens="true"
+            android:xlargeScreens="true"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+            android:name=".app.MyApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/icon_app_desk"
+            android:label="@string/app_name_desk"
+            android:resizeableActivity="true"
+            android:roundIcon="@mipmap/icon_app_desk"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning,UnusedAttribute"
+            tools:replace="android:label">
+        <activity android:name=".ui.activity.MeiboyunMainActivity">
+        </activity>
+        <activity android:name=".ui.activity.GisMainActivity">
+        </activity>
+        <activity android:name=".ui.activity.CommMainActivity">
+        </activity>
+
+        <service
+                android:name=".service.DownloadService"
+                android:enabled="true"
+                android:exported="false">
+        </service>
+        <service
+                android:name=".service.UdpHeartBeatService"
+                android:enabled="true"
+                android:exported="false">
+        </service>
+        <service
+                android:name=".service.StartHeartService"
+                android:enabled="true"
+                android:exported="false">
+        </service>
+
+        <activity
+                android:name=".ui.activity.SplashActivity"
+                android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize"
+                android:screenOrientation="portrait"
+                android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <meta-data
+                    android:name="android.notch_support"
+                    android:value="true"/>
+        </activity>
+        <activity
+                android:name=".ui.activity.MainActivity"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".wxapi.WXEntryActivity"
+                android:exported="true"
+                android:launchMode="singleTop"/>
+    </application>
+
+</manifest>

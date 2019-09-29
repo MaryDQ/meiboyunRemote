@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/second_main_navigation"
+            app:startDestination="@id/farPhoneFragment2">
+
+
+    <fragment
+            android:id="@+id/farPhoneFragment2"
+            android:name="com.microsys.imb.remote.ui.fragment.FarPhoneFragment"
+            android:label="FarPhoneFragment">
+        <action
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                android:id="@+id/action_farPhoneFragment_to_selectFromWorkGroupFragment"
+                app:destination="@id/selectFromWorkGroupFragment"/>
+        <action
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                android:id="@+id/action_farPhoneFragment_to_selectFromPersonsFragment"
+                app:destination="@id/selectFromPersonsFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/selectFromWorkGroupFragment"
+            android:name="com.microsys.imb.remote.ui.fragment.SelectFromWorkGroupFragment"
+            android:label="SelectFromWorkGroupFragment"/>
+    <fragment
+            android:id="@+id/selectFromPersonsFragment"
+            android:name="com.microsys.imb.remote.ui.fragment.SelectFromPersonsFragment"
+            android:label="SelectFromPersonsFragment">
+        <action
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                android:id="@+id/action_selectFromPersonsFragment_to_selectPersonsFromOrgFragment"
+                app:destination="@id/selectPersonsFromOrgFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/selectPersonsFromOrgFragment"
+            android:name="com.microsys.imb.remote.ui.fragment.SelectPersonsFromOrgFragment"
+            android:label="SelectPersonsFromOrgFragment"/>
+</navigation>

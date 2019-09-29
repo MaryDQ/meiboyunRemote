@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0097d8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="请选择日期"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:background="@drawable/bg_picker"
+            android:orientation="horizontal">
+
+            <com.sunday.common.widgets.wheelpicker.view.WheelStraightPicker
+                android:id="@+id/day_picker"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:wheel_item_count="3"
+                app:wheel_item_space="30dp"
+                app:wheel_text_size="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:background="@drawable/bg_picker"
+            android:orientation="horizontal">
+            <com.sunday.common.widgets.wheelpicker.view.WheelStraightPicker
+                android:id="@+id/hour_picker"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:wheel_item_count="3"
+                app:wheel_item_index="1"
+                app:wheel_item_space="30dp"
+                app:wheel_text_size="16sp" />
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_not_available"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="非空闲"
+                    android:textColor="#ff0000"
+                    android:visibility="invisible"/>
+                <com.sunday.common.widgets.wheelpicker.view.WheelStraightPicker
+                    android:id="@+id/minute_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:wheel_item_count="3"
+                    app:wheel_item_index="1"
+                    app:wheel_item_space="30dp"
+                    app:wheel_text_size="16sp" />
+            </RelativeLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="#888888" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_cancel"
+            android:background="#ffffff"
+            android:text="取消" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#888888" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="确定"
+            android:id="@+id/btn_sure"
+            android:textColor="#0097d8" />
+    </LinearLayout>
+
+</LinearLayout>

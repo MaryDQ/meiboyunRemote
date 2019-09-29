@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name_desk" translatable="false">云上会面Remote</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="connect_center" translatable="false">云上会面</string>
+    <string name="add_new_connect_center" translatable="false">添加新云上会面</string>
+    <string name="searching_now" translatable="false">正在搜索中...</string>
+    <string name="cancel" translatable="false">取消</string>
+
+    <string name="back" translatable="false">返回</string>
+    <string name="no_more_info" translatable="false">暂无更多信息</string>
+    <string name="share_to_wechat" translatable="false">分享至微信</string>
+    <string name="start_play" translatable="false">开始直播</string>
+    <string name="no_more_phone_info" translatable="false">暂无通话信息</string>
+    <string name="call_phone" translatable="false">拨号</string>
+    <string name="work_group" translatable="false">工作组</string>
+    <string name="contact" translatable="false">联系人</string>
+    <string name="select_contact_and_call" translatable="false">选择联系人发起通话</string>
+    <string name="search" translatable="false">搜索</string>
+    <string name="confirm" translatable="false">确认</string>
+    <string name="cur_select_work_group" translatable="false">已选择：0个工作组</string>
+    <string name="group" translatable="false">群组</string>
+    <string name="mute" translatable="false">静音</string>
+    <string name="end_call" translatable="false">结束通话</string>
+    <string name="click_and_speak" translatable="false">按一下发言</string>
+    <string name="cur_select_persons" translatable="false">已选择：0个人</string>
+    <string name="local_contact" translatable="false">本地联系人</string>
+    <string name="video_call" translatable="false">视频通话</string>
+    <string name="audio_call" translatable="false">语音通话</string>
+    <string name="close" translatable="false">关闭</string>
+    <string name="app_logo_name" translatable="false">美播云Remote</string>
+    <string name="check_error" translatable="false">配对错误</string>
+    <string name="new_version_update" translatable="false">新版本更新</string>
+    <string name="test_version_code" translatable="false">v1.2.1</string>
+    <string name="update_now" translatable="false">立即更新</string>
+    <string name="out_line" translatable="false">离线</string>
+    <string name="delete" translatable="false">删除</string>
+    <string name="please_check_the_pwd_of_center" translatable="false">请验证云上会面提示的配对码</string>
+    <string name="There_is_no_center" translatable="false">您还没有添加云上会面点击+号添加 长按可删除</string>
+
+</resources>

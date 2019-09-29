@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="define_smoothprogressbar" translatable="false"></string>
+    <string name="library_smoothprogressbar_author" translatable="false">Antoine Merle</string>
+    <string name="library_smoothprogressbar_authorWebsite" translatable="false">https://github.com/castorflex</string>
+    <string name="library_smoothprogressbar_libraryName" translatable="false">SmoothProgressBar</string>
+	<string name="library_smoothprogressbar_libraryDescription" translatable="false">Small library allowing you to make a smooth indeterminate progress bar. You can either user your progress bars and set this drawable or use directly the SmoothProgressBarView.</string>
+    <string name="library_smoothprogressbar_libraryVersion" translatable="false">1.0.0</string>
+    <string name="library_smoothprogressbar_libraryWebsite" translatable="false">https://github.com/castorflex/SmoothProgressBar</string>
+    <string name="library_smoothprogressbar_licenseId" translatable="false">apache_2_0</string>
+    <string name="library_smoothprogressbar_isOpenSource" translatable="false">true</string>
+    <string name="library_smoothprogressbar_repositoryLink" translatable="false">https://github.com/castorflex/SmoothProgressBar.git</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Library</string>
+    <!-- Error View -->
+    <string name="error_view_click_to_refresh" translatable="false">点击屏幕,重新加载</string>
+    <string name="error_view_no_data" translatable="false">暂无内容</string>
+    <string name="error_view_loading" translatable="false">加载中…</string>
+    <string name="error_view_load_error_click_to_refresh" translatable="false">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_network_error_click_to_refresh" translatable="false">没有可用的网络</string>
+    <string name="tip_network_error" translatable="false">没有可用的网络</string>
+    <string name="qr_scan_tips" translatable="false">将二维码/条码放入框内，即可自动扫描</string>
+    <string name="version_unknown" translatable="false">版本未知</string>
+
+
+
+</resources>

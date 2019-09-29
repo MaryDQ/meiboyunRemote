@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:orientation="horizontal">
+
+    <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="43.3dp">
+
+        <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvOne"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/icon_pwd_rect_bg"
+                android:layout_width="43.3dp"
+                android:layout_height="43.3dp"/>
+
+        <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvTwo"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/icon_pwd_rect_bg"
+                android:layout_width="43.3dp"
+                android:layout_height="43.3dp"/>
+
+        <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvThree"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/icon_pwd_rect_bg"
+                android:layout_width="43.3dp"
+                android:layout_height="43.3dp"/>
+
+        <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvFour"
+                android:background="@drawable/icon_pwd_rect_bg"
+                android:layout_width="43.3dp"
+                android:layout_height="43.3dp"/>
+
+
+    </LinearLayout>
+
+    <EditText
+            android:textColor="@color/bg_transparent"
+            android:singleLine="true"
+            android:maxLength="4"
+            android:inputType="number"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:id="@+id/etInputPwd"
+            android:layout_gravity="center"
+            android:layout_width="263dp"
+            android:layout_height="43.3dp"/>
+
+</FrameLayout>
